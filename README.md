@@ -16,7 +16,7 @@ This dataset contains information about individuals' health and lifestyle factor
 - Physical Activity: Frequency of exercise, Technology use, Mode of transportation
 - Obesity Level: Target variable indicating obesity status
 This dataset is useful for studying the impact of lifestyle choices on obesity.
-## Folder Structure
+<!-- ## Folder Structure
 
 The project is organized into the following directories:
 
@@ -60,7 +60,7 @@ The project is organized into the following directories:
 - run_deployment.py: Script to run deployment pipeline.
 - run_pipeline.py: Script to run training pipeline.
 - setup.py: Setup script.
-- streamlit_app.py: Streamlit web app for user interaction.
+- streamlit_app.py: Streamlit web app for user interaction. -->
 ## Pipeline Workflow
 
 1. **Exploratory Data Analysis (EDA)**
