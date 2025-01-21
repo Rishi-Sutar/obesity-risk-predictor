@@ -63,6 +63,8 @@ The project is organized into the following directories:
 - streamlit_app.py: Streamlit web app for user interaction. -->
 ## Pipeline Workflow
 
+![image](https://drive.google.com/file/d/11ivj7ZI_ht9lqsRTdPf8ZRP1YhNw43v3/view?usp=sharing)
+
 1. **Exploratory Data Analysis (EDA)**
 EDA is performed separately from the pipeline to gain insights into the dataset.
 - Store insights in Jupyter Notebook
