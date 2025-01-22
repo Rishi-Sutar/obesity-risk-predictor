@@ -5,7 +5,7 @@ import requests
 import json
 from sklearn.preprocessing import StandardScaler
 
-scoring_uri = 'http://62df1b9a-915a-4012-8443-5fd4619c7562.westus.azurecontainer.io/score'
+scoring_uri = st.secrets["scoring_uri"]
 
 st.title('Obesity Predictor')
 
