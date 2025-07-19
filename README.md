@@ -75,21 +75,21 @@ The pipeline consists of multiple steps:
 
 **Data Processing Steps**
 
-    1. Data Ingestion: Extracts data from a zip file and stores it in the extracted_data folder.
-    2. Data Cleaning: Drops unwanted columns from the dataset.
-    3. Feature Encoding: Converts categorical features using Label Encoder.
-        - One-hot encoding option is available but not applied.
-    4. Feature Scaling: Features are scaled using:
-        - Log Transformation
-        - Standard Scaler
-    5. Data Splitting: Splits the dataset into training and testing sets.
+1. Data Ingestion: Extracts data from a zip file and stores it in the extracted_data folder.
+2. Data Cleaning: Drops unwanted columns from the dataset.
+3. Feature Encoding: Converts categorical features using Label Encoder.
+    - One-hot encoding option is available but not applied.
+4. Feature Scaling: Features are scaled using:
+    - Log Transformation
+    - Standard Scaler
+5. Data Splitting: Splits the dataset into training and testing sets.
 **Model Training and Evaluation Steps**
 
-    6. Model Selection:
-        - Performs GridSearchCV and hyperparameter tuning.
-        - Selects the best model among Tree-Based Models (since Label Encoding is used).
-    7. Model Trainer: Trains the selected model using MLflow.
-    8. Model Evaluation: Computes accuracy metrics of the trained model using MLflow.
+6. Model Selection:
+    - Performs GridSearchCV and hyperparameter tuning.
+    - Selects the best model among Tree-Based Models (since Label Encoding is used).
+7. Model Trainer: Trains the selected model using MLflow.
+8. Model Evaluation: Computes accuracy metrics of the trained model using MLflow.
 3. Pipelines
 
 - Trained Pipeline:
